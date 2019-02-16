@@ -57,6 +57,7 @@ MedianGraphics <- ggplot(data = medianbooze, aes(x = State, y = IBU, fill = ABV)
 
 States with highest alcohol by volume (ABV) and Most Bitter (IBU) beers.
 ```{r, top dogs}
+#Doesn't Return Max Value - need to re-evaluate code
 Crafts$State[which.max(Crafts$ABV)]
 Crafts$State[which.max(Crafts$IBU)]
 ```
